@@ -2,6 +2,15 @@ body{
   overflow-x: hidden;
 }
 
+#load{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:9999;
+  background-color: lightgray;
+  background:url("images/loading.gif") no-repeat center;
+}
+
 /* navigation */
 .hamburger-menu{
   width: 65px;
